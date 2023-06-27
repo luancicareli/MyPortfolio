@@ -1,0 +1,27 @@
+.inputText{
+    margin: 24px 0;
+}
+.inputText input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 10px 10px 30px 0px #0000000F;
+
+}
+.inputText input:focus{
+    border: 1px solid #555;
+}
+.inputText label{
+    display: block;
+    margin-bottom: 10px;
+    display: block;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
