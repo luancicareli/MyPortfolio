@@ -2,7 +2,7 @@ import './logo.css';
 
 const Logo = () => (
   <>
-    <div className="logo"><img alt="logo Luan" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"/></div>
+    <div className="logo"><img alt="logo Luan" src="./logoLuan.png"/></div>
   </>
 );
 export default Logo;
