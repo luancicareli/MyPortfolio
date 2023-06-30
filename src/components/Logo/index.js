@@ -2,7 +2,7 @@ import './logo.css';
 
 const Logo = () => (
   <>
-    <div className="logo"><img alt="logo Luan" src="./logoLuan.png"/></div>
+    <div className="logo"><img alt="logo Luan" src="/images/logoLuan.png"/></div>
   </>
 );
 export default Logo;

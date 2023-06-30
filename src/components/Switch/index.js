@@ -3,7 +3,10 @@ import './switch.css';
 
 const Swt = () => (
   <>
-    <Switch size="small" defaultChecked />
+    <div className="swtBox">
+      <span> ☀ </span><Switch size="small"/>
+      <span> EN </span><Switch size="small"/>
+    </div>    
   </>
 );
 export default Swt;

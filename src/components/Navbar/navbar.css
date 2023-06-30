@@ -1,9 +1,23 @@
 .navbar{
-    background-color: #000000;
+    display: flex;
+    background-color: #0f0f0f;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 0 1rem;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
+}
+.navbar_logo{
+    margin: auto;
+}
+.navbar_switch{
+    position: absolute;
+    right: 50px;
+    padding: 20px;
+}
+.navbar_hamburger{
+    position: absolute;
+    left: 50px;
+    padding: 20px;
 }
