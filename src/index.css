@@ -1,7 +1,8 @@
 body {
-  background-color: #161616!important;
+  background-color: #161616;
+  color: #dfdfdf;
   margin: 0;
-  font-family: 'Poppins', sans-serif!important;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
