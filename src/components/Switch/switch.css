@@ -1,0 +1,5 @@
+:where(.css-dev-only-do-not-override-12upa3x).ant-switch.ant-switch-checked {
+    border-radius: 20px;
+    background: var(--5690-ff-2-paints, linear-gradient(180deg, rgba(109, 0, 219, 0.50) 20.83%, rgba(97, 0, 255, 0.00) 93.23%), #5690FF);
+    background-blend-mode: overlay, normal;
+}
