@@ -10,8 +10,9 @@ function Banner(){
             <Row>
                 <Col>
                     <div className="bio">
-                        <h1>Olá, eu sou o</h1><h1>Luan Cicareli</h1>
-                        <h4>Desenvolvedor Web Full-stack</h4>
+                        <h1 className="text-first">Olá, eu sou o</h1>
+                        <h1 className="text-name">Luan Cicareli</h1>
+                        <h4 className="text-dev">Desenvolvedor Web Full-stack</h4>
                     </div>
                 </Col>
                 <Col>

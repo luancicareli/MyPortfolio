@@ -1,0 +1,34 @@
+.projectBox {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+}
+
+.txtNamePrj {
+    text-align: center;
+}
+
+.txtDescPrj {
+    text-align: justify;
+}
+
+.projectContent {
+    position: relative;
+    text-align: center;
+    background-color: #212121;
+    width: 20rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.projectContent img {
+    width: 20rem;
+    padding: 20px;
+}

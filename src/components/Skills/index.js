@@ -2,14 +2,23 @@ import './skills.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import SkillContent from './skill';
 
-const Skills = (nome, image) => {
+const SkillBox = (props) => {
     return (
         <Container style={{marginTop: "100px"}}>
             <Row>
                 <Col>
                     <h3 style={{textAlign: "center"}}>Habilidades</h3>
-                    
+                    <div class="boxSkill">
+                    {
+                        (props.skills.map((skill) => {
+                            return (
+                                <SkillContent key={skill.name} name={skill.name} image={skill.logo} />
+                            )
+                        }))
+                    }
+                    </div>
                 </Col>
             </Row>
         </Container>
@@ -17,4 +26,4 @@ const Skills = (nome, image) => {
     )
 };
 
-export default Skills;
+export default SkillBox;
