@@ -14,6 +14,16 @@ function Banner(){
                         <h1 className="text-name">Luan Cicareli</h1>
                         <h4 className="text-dev">Desenvolvedor Web Full-stack</h4>
                     </div>
+                    <div>
+                        <div className='boxBtn'>
+                            <div className="btn btnPrimary">
+                                Download CV
+                            </div>
+                            <div className="btn btnSecondary">
+                                Entrar em contato
+                            </div>
+                        </div>
+                    </div>
                 </Col>
                 <Col>
                     <div className='img-profile-box'>

@@ -14,10 +14,10 @@
 .navbar_switch{
     position: absolute;
     right: 50px;
-    padding: 20px;
+    z-index: 5;
+    top: 23px;
 }
 .navbar_hamburger{
-    position: absolute;
     left: 50px;
     padding: 20px;
 }

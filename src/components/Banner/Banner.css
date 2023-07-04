@@ -28,3 +28,20 @@
     color: #7a7a7a;
     font-weight: 400;
 }
+
+.boxBtn{
+    margin-top: 80px;
+}
+
+.btnSecondary{
+    color: #fff;
+    background-color: #0d0d0d!important;
+    border: 1px solid #5c6bf6!important;
+}
+
+.btnPrimary{
+    border: none !important;
+    color: white;
+    background: linear-gradient(180deg, rgba(109, 0, 219, 0.50) 20.83%, rgba(97, 0, 255, 0.00) 93.23%), #3566c6 !important;
+    border: none;
+}

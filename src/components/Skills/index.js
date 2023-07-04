@@ -6,11 +6,11 @@ import SkillContent from './skill';
 
 const SkillBox = (props) => {
     return (
-        <Container style={{marginTop: "100px"}}>
+        <Container id="skillUp" style={{marginTop: "100px"}}>
             <Row>
                 <Col>
                     <h3 style={{textAlign: "center"}}>Habilidades</h3>
-                    <div class="boxSkill">
+                    <div className="boxSkill">
                     {
                         (props.skills.map((skill) => {
                             return (

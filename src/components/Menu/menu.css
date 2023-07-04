@@ -2,3 +2,47 @@
     background: linear-gradient(180deg, rgba(109, 0, 219, 0.50) 20.83%, rgba(97, 0, 255, 0.00) 93.23%), #5690FF !important;
     background-blend-mode: overlay, normal;
 }
+
+.list{
+    text-align: center;
+}
+
+.list .listItems{
+    font-size: 25px;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+.list .listItems li{
+    margin: 2px 8px;
+    cursor: pointer;
+}
+
+.list .listItems li:hover{
+    color: #5690FF;
+}
+
+.menu.menuOpen {
+    backdrop-filter: blur(3px);
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background: #000000d1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 0;
+    left: 0;
+}
+
+.menu.menuClose {
+    display: none;
+    width: 0px;
+}
+
+.menuToggle{
+    z-index: 100;
+    position: absolute;
+    left: 50px;
+    top: 23px;
+    z-index: 15;
+}
