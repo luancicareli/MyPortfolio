@@ -36,3 +36,14 @@
     width: 20rem;
     padding: 20px;
 }
+
+.scroll-target {
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: opacity 2s, transform 2s;
+}
+
+.scroll-target.active {
+    opacity: 1;
+    transform: translateX(0);
+}

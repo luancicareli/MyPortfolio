@@ -10,7 +10,7 @@ const ProjectBox = (props) => {
             <Row>
                 <Col>
                     <h3 style={{textAlign: "center"}}>Projetos</h3>
-                    <div className="projectBox">
+                    <div id="projects" className="projectBox">
                     {
                         (props.projects.map((project) => {
                             return (

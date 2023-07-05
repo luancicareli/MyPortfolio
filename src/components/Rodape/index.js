@@ -2,7 +2,7 @@ import './rodape.css'
 
 const Rodape = () => {
     return (
-        <div className='rodape'>
+        <div id="contact" className='rodape'>
             <div className='rodapeBox'>
                 <div className='rodapeContent'>
                     <img src='/images/social/github.png' alt='GitHub Luan Cicareli' />

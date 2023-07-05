@@ -8,7 +8,29 @@ const Ham = () => {
 
   const [isOpen, setOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setOpen(!isOpen);
+  }
 
+  const scrollToTarget = (event) => {
+    event.preventDefault();
+  
+    const href = event.target.getAttribute('href');
+    const targetElement = document.querySelector(href);
+  
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleClick = (event) => {
+
+    toggleMenu();
+    
+    scrollToTarget(event);
+
+  };
+  
 
   return (
     <>
@@ -19,11 +41,11 @@ const Ham = () => {
         <div className="list">
           <div className="listItems">
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">Sobre mim</a></li>
-              <li><a href="#skillUp">Habilidades</a></li>
-              <li><a href="#projects">Projetos</a></li>
-              <li><a href="#contact">Contato</a></li>
+              <li><a onClick={handleClick} href="#home">Home</a></li>
+              <li><a onClick={handleClick} href="#about">Sobre mim</a></li>
+              <li><a onClick={handleClick} href="#skillUp">Habilidades</a></li>
+              <li><a onClick={handleClick} href="#projects">Projetos</a></li>
+              <li><a onClick={handleClick} href="#contact">Contato</a></li>
             </ul>
           </div>
         </div>

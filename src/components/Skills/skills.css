@@ -38,3 +38,14 @@
     position: absolute;
     bottom: -15px;
 }
+
+.scroll-target {
+    opacity: 0;
+    transform: translateX(-350px);
+    transition: opacity 2s, transform 2s;
+}
+
+.scroll-target.active {
+    opacity: 1;
+    transform: translateX(0);
+}

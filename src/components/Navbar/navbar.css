@@ -1,21 +1,11 @@
-.navbar{
-    display: flex;
-    background-color: #0f0f0f;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    padding: 0 1rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
+
 .navbar_logo{
     margin: auto;
 }
 .navbar_switch{
     position: absolute;
-    right: 50px;
+    right: 5vw;
     z-index: 5;
-    top: 23px;
 }
 .navbar_hamburger{
     left: 50px;

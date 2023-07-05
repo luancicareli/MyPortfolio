@@ -3,7 +3,9 @@ import Content from './components/Content';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Rodape from './components/Rodape';
-import SkillBox from './components/Skills';
+import SkillUp from './components/Skills';
+import React from 'react';
+import { Element } from 'react-scroll';
 
 
 function App() {
@@ -98,7 +100,9 @@ function App() {
       <Navbar/>
       <Banner/>
       <Content/>
-      <SkillBox skills={skls}/>
+      <Element name="appElement">
+        <SkillUp skills={skls}/>
+      </Element>
       <Projects projects={prjs}/>
       <Rodape/>
     </div>

@@ -5,6 +5,32 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  scroll-behavior: smooth;
+}
+
+.App {
+  scroll-behavior: smooth;
+}
+
+#home {
+  scroll-margin-top: 200px;
+}
+#about {
+  scroll-margin-top: 350px;
+}
+#skillUp {
+  scroll-margin-top: 200px;
+}
+#projects {
+  scroll-margin-top: 200px;
 }
 
 code {
@@ -15,7 +41,7 @@ code {
 .h3, h3 {
   border-bottom: 2px solid #5a62f6;
   width: max-content;
-  margin: 20px auto;
+  margin: 50px auto 20px auto;
 }
 
 .btn{
@@ -34,4 +60,30 @@ ul{
 a{
   text-decoration: none;
   color: #4f72fb;
+}
+
+.navbar {
+  background-color: #0f0f0ff2;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  height: 100px;
+  transition: all 0.7s ease-out;
+}
+
+.navbar-scroll{
+  height: 75px;
+  transition: all 0.7s ease-out;
+}
+
+.navbar-scroll .menuToggle{
+  top: 15px;
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1420px;
+  }
 }
