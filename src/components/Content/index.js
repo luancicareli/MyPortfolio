@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const Content = () => {
     return (
-        <Container style={{marginTop: "100px"}}>
+        <Container className='boxAbout'>
             <Row>
                 <Col>
                     <h3 style={{textAlign: "center"}}>Sobre mim</h3>

@@ -32,18 +32,27 @@
     transition: 0.2s;
 }
 
+.projectContent:hover {
+    background-color: #2c2c2c;
+    transform: scale(1.05);
+}
+
 .projectContent img {
     width: 20rem;
     padding: 20px;
 }
 
-.scroll-target {
+.scroll-targetP {
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(350px);
     transition: opacity 2s, transform 2s;
 }
 
-.scroll-target.active {
+.scroll-targetP.active {
     opacity: 1;
     transform: translateX(0);
+}
+
+.boxProjectsMain {
+    margin-top: 100px;
 }

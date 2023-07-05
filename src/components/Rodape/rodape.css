@@ -1,6 +1,5 @@
 .rodape{
     margin-top: 50px;
-    height: 400px;
     background-color: #0f0f0f;
 }
 
@@ -24,7 +23,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .rodapeContent img {
@@ -35,4 +34,13 @@
 .txtRodapeContent{
     color: #828282;
     margin-top: -17px;
+}
+
+.rodapeContent a{
+    color: #fff;
+}
+
+.rodapeContent:hover{
+    transform: scale(1.07);
+    transition: all 0.3s ease-out;
 }

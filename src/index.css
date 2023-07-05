@@ -44,15 +44,6 @@ code {
   margin: 50px auto 20px auto;
 }
 
-.btn{
-  color: #fff;
-  border-radius: 15px;
-  font-size: 15px;
-  padding: 9px 20px;
-  margin-right: 25px;
-  box-shadow: 3px 3px 5px 0px #0f0f0f;
-}
-
 ul{
   list-style: none;
 }
@@ -85,5 +76,65 @@ a{
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px;
+  }
+}
+
+@media (max-width: 992px) {
+  .boxSkill{
+    justify-content: center;
+    place-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hamburger-react div {
+    width: 25px!important;
+  }
+  .logo img {
+    width: 110px;
+  }
+  .navbar_switch {
+    top: 10px;    
+  }
+  .boxBannerBio{
+    margin-top: 150px;
+  }
+  .boxBtn {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .btnPrimary{
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .img-profile-box {
+    margin-top: 40px;
+  }
+  .btns{
+    font-size: 14px;
+    width: 150px;
+    padding: 10px;
+  }
+  .about {
+    font-size: 16px;
+    text-align: center;
+  }
+  .h3, h3 {
+    margin: 20px auto 10px auto;
+  }
+  .boxAbout{
+    margin-top: 50px;
+  }
+  #skillUp{
+    margin-top: 50px;
+  }
+  .boxProjectsMain {
+    margin-top: 50px;
+  }
+  .rodapeBox{
+    gap: 1rem;
+  }
+  .txtRodapeContent {
+    font-size: 14px;
   }
 }

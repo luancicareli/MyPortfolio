@@ -39,13 +39,42 @@
 
 .btnSecondary{
     color: #fff;
-    background-color: #0d0d0d!important;
-    border: 1px solid #5c6bf6!important;
+    background: #0d0d0d;
+    border: 1px solid #5c6bf6;
 }
 
 .btnPrimary{
-    border: none !important;
-    color: white;
-    background: linear-gradient(180deg, rgba(109, 0, 219, 0.50) 20.83%, rgba(97, 0, 255, 0.00) 93.23%), #3566c6 !important;
+    margin-right: 25px;
     border: none;
+    color: white;
+    background: linear-gradient(180deg, rgba(109, 0, 219, 0.50) 20.83%, rgba(97, 0, 255, 0.00) 93.23%), #3566c6;
+    border: none;
+}
+
+.btnPrimary:hover{
+    transition: all 0.7s ease-out;
+    background: #5500c4b8;
+    border: none;
+}
+
+.btnSecondary:hover{
+    transition: all 0.7s ease-out;
+    border: 1px solid #774bd8;
+}
+
+.btns{
+    text-align: center;
+    width: 180px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 9px 20px;
+    box-shadow: 3px 3px 5px 0px #0f0f0f;
+    transition: all 0.7s ease-out;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.boxBannerBio{
+    margin-top: 200px;
 }

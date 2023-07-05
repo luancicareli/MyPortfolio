@@ -21,7 +21,7 @@ const SkillUp = (props) => {
     }, [inView]);
 
     return (
-        <Container id="skillUp" style={{marginTop: "100px"}}>
+        <Container id="skillUp">
             <Row>
                 <Col>
                     <h3 style={{textAlign: "center"}}>Habilidades</h3>
@@ -31,7 +31,7 @@ const SkillUp = (props) => {
                             {
                                 (props.skills.map((skill) => {
                                     return (
-                                        <SkillContent key={skill.name} name={skill.name} image={skill.logo} />
+                                        <SkillContent key={skill.name} link={skill.link} name={skill.name} image={skill.logo} />
                                     )
                                 }))
                             }

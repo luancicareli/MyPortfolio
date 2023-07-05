@@ -57,7 +57,7 @@ const Banner = () => {
     };
 
     return (
-        <Container style={{marginTop: "200px"}}>
+        <Container className="boxBannerBio">
             <Row>
                 <Col>
                     <div id="home" className="bio">
@@ -67,12 +67,16 @@ const Banner = () => {
                     </div>
                     <div>
                         <div className='boxBtn'>
-                            <div className="btn btnPrimary">
-                            <a style={{color: "#fff"}} href='/doc/CV-Luan.pdf' download>Download CV</a>
-                            </div>
-                            <div className="btn btnSecondary">
-                            <a style={{color: "#fff"}} href='https://api.whatsapp.com/send?phone=5517997462585&text=Ol%C3%A1%20Luan,%20achei%20seu%20perfil%20interessante.%20Podemos%20marcar%20um%20hor%C3%A1rio%20para%20uma%20conversa?' target="_blank" rel="noopener noreferrer">Entrar em contato</a>
-                            </div>
+                            <a href='/doc/CV-Luan.pdf' download>
+                                <div className="btns btnPrimary">
+                                    Download CV
+                                </div>
+                            </a>
+                            <a href='https://api.whatsapp.com/send?phone=5517997462585&text=Ol%C3%A1%20Luan,%20achei%20seu%20perfil%20interessante.%20Podemos%20marcar%20um%20hor%C3%A1rio%20para%20uma%20conversa?' target="_blank" rel="noopener noreferrer">
+                                <div className="btns btnSecondary">
+                                    Entrar em contato
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </Col>
