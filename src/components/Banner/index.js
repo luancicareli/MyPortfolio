@@ -11,7 +11,7 @@ const Banner = () => {
     const [text3, setText3] = useState('');
   
     useEffect(() => {
-        const messages = ["Olá, eu sou", "Luan Cicareli", "Desenvolvedor Web Full-stack"];
+        const messages = ["Olá, eu sou a", "Luan Cicareli", "Desenvolvedor Web Full-stack"];
         const typingInterval = 50;
         let currentIndex = 0;
     
