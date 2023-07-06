@@ -44,7 +44,7 @@
 
 .scroll-targetP {
     opacity: 0;
-    transform: translateX(350px);
+    transform: translateX(250px);
     transition: opacity 2s, transform 2s;
 }
 
@@ -55,4 +55,5 @@
 
 .boxProjectsMain {
     margin-top: 100px;
+    overflow: hidden;
 }

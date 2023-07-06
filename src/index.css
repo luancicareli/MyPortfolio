@@ -137,4 +137,10 @@ a{
   .txtRodapeContent {
     font-size: 14px;
   }
+  .scroll-targetP {
+    transform: translateX(150px);
+  }
+  .scroll-target {
+    transform: translateX(-150px);
+  }
 }
