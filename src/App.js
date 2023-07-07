@@ -14,7 +14,7 @@ function App() {
     {
       name: 'Project1',
       desc: 'Projeto desenvolvido com React, com o intuito de treinar o uso de componentes',
-      logo: '/images/skills/javascript.png'
+      logo: 'projects/appTeams/images/appTeam.png'
     },
     {
       name: 'Project2',
