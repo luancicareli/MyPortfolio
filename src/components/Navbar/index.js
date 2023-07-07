@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className={`navbar ${isScrolled ? 'navbar-scroll' : ''}`}>
         <div className="navbar_hamburger"><Ham/></div>
         <div className="navbar_logo"><Logo/></div>
-        <div className="navbar_switch"><Swt/></div>
+        
       </nav>
     </>
   );
@@ -33,3 +33,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+//<div className="navbar_switch"><Swt/></div>
