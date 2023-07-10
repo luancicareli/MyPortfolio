@@ -12,22 +12,10 @@ function App() {
 
   const prjs = [
     {
-      name: 'Project1',
-      link: 'projects/appTeams/index.html',
-      desc: 'Projeto desenvolvido com React, com o intuito de treinar o uso de componentes',
-      logo: 'projects/appTeams/images/appTeam.png'
-    },
-    {
-      name: 'Project2',
-      link: '',
-      desc: 'Projeto desenvolvido com React',
-      logo: '/images/skills/javascript.png'
-    },
-    {
-      name: 'Project3',
-      link: '',
-      desc: 'Projeto desenvolvido com React',
-      logo: '/images/skills/javascript.png'
+      name: 'AppTeams',
+      link: 'projects/appTeams/public/index.html',
+      desc: 'Projeto desenvolvido com React, com o intuito de treinar o uso de diversos componentes', 
+      logo: 'projects/appTeams/public/images/appTeam.png'
     }
   ]
 

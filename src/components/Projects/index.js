@@ -30,7 +30,7 @@ const ProjectBox = (props) => {
                             {
                                 (props.projects.map((project) => {
                                     return (
-                                        <ProjectContent key={project.name} name={project.name} desc={project.desc} image={project.logo} />
+                                        <ProjectContent key={project.name} link={project.link} name={project.name} desc={project.desc} image={project.logo} />
                                     )
                                 }))
                             }
