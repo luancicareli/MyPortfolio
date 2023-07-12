@@ -12,10 +12,40 @@ function App() {
 
   const prjs = [
     {
+      name: 'MyPortfolio',
+      path: 'https://github.com/luancicareli/MyPortfolio',
+      desc: 'Projeto desenvolvido com React, com objetivo de criar um portfólio pessoal para divulgação de projetos', 
+      logo: '/images/projects/myport.png'
+    },
+    {
       name: 'AppTeams',
       path: 'https://github.com/luancicareli/AppTeams',
       desc: 'Projeto desenvolvido com React, com o intuito de treinar o uso de diversos componentes', 
       logo: '/images/projects/appTeam.png'
+    },
+    {
+      name: 'MidSound',
+      path: 'https://github.com/luancicareli/MidSound',
+      desc: 'Projeto desenvolvido em HTML e JS com intuito de executar uma função acionada pela interação do usuário', 
+      logo: '/images/projects/midsound.png'
+    },
+    {
+      name: 'Robotron',
+      path: 'https://github.com/luancicareli/Robotron',
+      desc: 'Projeto desenvolvido em HTML, CSS e JS para manipulação dos elementos de forma dinâmica', 
+      logo: '/images/projects/robotron.png'
+    },
+    {
+      name: 'SendForm',
+      path: 'https://github.com/luancicareli/SendForm',
+      desc: 'Projeto desenvolvido com HTML, CSS e JavaScript com intuito enviar todos valores e receber um status de feedback', 
+      logo: '/images/projects/sendform.png'
+    },
+    {
+      name: 'MoniBank',
+      path: 'https://github.com/luancicareli/MoniBank',
+      desc: 'Projeto desenvolvido para validação de formulário através do JavaScript', 
+      logo: '/images/projects/monibank.png'
     }
   ]
 
