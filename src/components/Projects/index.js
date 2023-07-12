@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectContent from './project';
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
 import { useInView } from 'react-intersection-observer';
 
@@ -27,13 +27,19 @@ const ProjectBox = (props) => {
                     <Element name="targetElement" className={`scroll-targetP ${isVisible ? 'active' : ''}`}>
                         <div ref={targetRef}>
                             <div id="projects" className="projectBox">
-                            {
-                                (props.projects.map((project) => {
-                                    return (
-                                        <ProjectContent key={project.name} link={project.link} name={project.name} desc={project.desc} image={project.logo} />
-                                    )
-                                }))
-                            }
+                                {
+                                    (props.projects.map((project) => {
+                                        return (
+                                            <ProjectContent 
+                                                key={project.name} 
+                                                path={project.path} 
+                                                name={project.name} 
+                                                desc={project.desc} 
+                                                image={project.logo} 
+                                            />
+                                        )
+                                    }))
+                                }
                             </div>
                         </div>
                     </Element>

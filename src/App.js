@@ -1,7 +1,7 @@
 import Banner from './components/Banner';
 import Content from './components/Content';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import ProjectBox from './components/Projects';
 import Rodape from './components/Rodape';
 import SkillUp from './components/Skills';
 import React from 'react';
@@ -13,7 +13,7 @@ function App() {
   const prjs = [
     {
       name: 'AppTeams',
-      link: 'projects/appTeams/public/index.html',
+      path: 'https://github.com/luancicareli/AppTeams',
       desc: 'Projeto desenvolvido com React, com o intuito de treinar o uso de diversos componentes', 
       logo: 'projects/appTeams/public/images/appTeam.png'
     }
@@ -103,16 +103,16 @@ function App() {
   ]
 
   return (
-    <div className="App">
-      <Navbar/>
-      <Banner/>
-      <Content/>
-      <Element name="appElement">
-        <SkillUp skills={skls}/>
-      </Element>
-      <Projects projects={prjs}/>
-      <Rodape/>
-    </div>
+      <div className="App">
+        <Navbar/>
+        <Banner/>
+        <Content/>
+        <Element name="appElement">
+          <SkillUp skills={skls}/>
+        </Element>
+        <ProjectBox projects={prjs} />
+        <Rodape/>
+      </div>
   );
 }
 
