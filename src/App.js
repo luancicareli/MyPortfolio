@@ -15,7 +15,7 @@ function App() {
       name: 'AppTeams',
       path: 'https://github.com/luancicareli/AppTeams',
       desc: 'Projeto desenvolvido com React, com o intuito de treinar o uso de diversos componentes', 
-      logo: 'projects/appTeams/public/images/appTeam.png'
+      logo: '/images/projects/appTeam.png'
     }
   ]
 
