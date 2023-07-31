@@ -111,6 +111,11 @@ function App() {
       logo: '/images/skills/mysql.png'
     },
     {
+      name: 'NextJS',
+      link: 'https://nextjs.org/',
+      logo: '/images/skills/next.png'
+    },
+    {
       name: 'Photoshop',
       link: 'https://www.adobe.com/br/products/photoshop',
       logo: '/images/skills/photoshop.png'
@@ -124,6 +129,11 @@ function App() {
       name: 'React',
       link: 'https://react.dev',
       logo: '/images/skills/react.png'
+    },
+    {
+      name: 'Tailwind',
+      link: 'https://tailwindcss.com',
+      logo: '/images/skills/tailwind.png'
     },
     {
       name: 'Wordpress',
