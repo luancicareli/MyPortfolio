@@ -82,7 +82,7 @@ const Banner = () => {
                 </Col>
                 <Col>
                     <div className='img-profile-box'>
-                        <img src="/images/profile.png" alt="Luan Cicareli" className="img-profile" />
+                        <img src={`${process.env.PUBLIC_URL}/images/profile.png`} alt="Luan Cicareli" className="img-profile" />
                     </div>
                 </Col>
             </Row>
